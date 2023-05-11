@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel = "stylesheet" href = "index.css">
+    </head>
+    <body>
+        <h1>Blackjack</h1>
+        <p id = "message-el">Want to play a round?</p>
+        <p id = "cards-el">Cards: </p>
+        <p class = "sum-el">Sum: </p>
+        <button id = "startButton" onclick = "startGame(); bet()" >
+            START GAME
+        </button>
+        <button id ="newCardBtn" onclick = "newCard()">NEW CARD</button>
+        <p>Game cost: $100 chips per game, if you get Blackjack, win $1500 </p>
+        <button id="winBtn" onclick = "win()">Collect winnings</button>
+        <P id = "player-el"></P>
+        <script src = "index.js"></script>
+    </body>
+</html>
